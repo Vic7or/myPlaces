@@ -9,7 +9,7 @@ type Props = {
 
 class ProfileScreen extends React.Component<Props> {
   static navigationOptions = {
-    title: 'Welcome',
+    title: 'Profile',
   };
 
   render() {
