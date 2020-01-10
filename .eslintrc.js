@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': 'airbnb',
+    'extends': 'airbnb-typescript',
     'parser': 'babel-eslint',
     'env': {
       'jest': true,
