@@ -8,9 +8,7 @@
     "eject": "expo eject",
     "lint": "eslint *.tsx **/*.tsx"
   },
-  "husky": {
-
-  },
+  "husky": {},
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.5",
     "expo": "~36.0.0",
@@ -23,8 +21,6 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
     "react-native-firebase": "^5.6.0",
     "react-native-gesture-handler": "~1.5.0",
-    "react-native-imagepicker": "^2.0.0",
-    "react-native-linear-gradient": "^2.5.6",
     "react-native-reanimated": "~1.4.0",
     "react-native-safe-area-context": "^0.6.0",
     "react-native-safe-area-view": "^1.0.0",
