@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Text } from 'react-native';
 import { NavigationStackProp } from 'react-navigation-stack';
 
 type Props = {
@@ -8,22 +8,12 @@ type Props = {
 
 
 class ProfileScreen extends React.Component<Props> {
-  static navigationOptions = {
-    title: 'Profile',
-  };
-
   render() {
-    const { navigation } = this.props;
-    const name = navigation.getParam('name', 'inconnu');
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>
-          {`${name}'s Profile Page`}
+           Profile Page
         </Text>
-        <Button
-          title="Go to home page"
-          onPress={() => navigation.navigate('Home')}
-        />
       </View>
     );
   }
